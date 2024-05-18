@@ -41,7 +41,7 @@ const Messages = ({ person, conversation }) => {
         createdAt: Date.now(),
       });
     });
-  }, []);
+  }, [socket]);
 
   useEffect(() => {
     const getMessageDetails = async () => {

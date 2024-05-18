@@ -52,7 +52,7 @@ const Footer = ({ sendText, setValue, value, file, setFile,setImage }) => {
             }
         }
         getImage();
-    }, [file]);
+    }, [file, setImage]);
 
     const onfileChange = (e) => {
         setFile(e.target.files[0]);
