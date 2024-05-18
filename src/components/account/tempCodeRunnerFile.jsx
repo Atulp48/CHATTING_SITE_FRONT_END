@@ -1,0 +1,1 @@
+import { qrCodeImage } from '../../../../../download/Whatsapp-Clone/client/src/constants/data';
